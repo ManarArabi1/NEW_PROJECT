@@ -1,1 +1,13 @@
-new file
+1) Tell me how to remove them locally and remotely.
+--To remove branches locally first Switch to a branch and Delete the local branch using the command :
+git branch -d dev
+--To remove branches Remotely Delete the Remotely branch using the command :
+git push origin --delete dev
+___________________________________________________________________________________________
+2) Tell me how to list tags.
+We ude git tag command to list all tags in the git repo
+___________________________________________________________________________________________
+3) 
+To delete a local tag in Git we use command git tag -d v1.7
+To delete a remote tag we use command git push --delete origin v1.7
+
